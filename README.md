@@ -1,0 +1,1 @@
+# vite6-bundle-size-regression

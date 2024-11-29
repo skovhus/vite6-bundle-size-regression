@@ -1,0 +1,29 @@
+{
+  "name": "vite6-bundle-size-regression",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "rollup-plugin-visualizer": "^5.12.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "prosemirror-example-setup": "^1.2.3",
+    "prosemirror-keymap": "^1.2.2",
+    "prosemirror-menu": "^1.2.4",
+    "prosemirror-schema-basic": "^1.2.3",
+    "prosemirror-model": "1.22.1",
+    "prosemirror-state": "1.4.3",
+    "prosemirror-tables": "1.3.4",
+    "prosemirror-transform": "1.7.3",
+    "prosemirror-schema-list": "1.3.0",
+    "prosemirror-utils": "0.9.6",
+    "prosemirror-view": "1.34.3"
+  }
+}
